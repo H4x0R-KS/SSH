@@ -1,4 +1,4 @@
-## ◇────── DRAGON VPS MANAGER ───────◇
+## ◇────── DRAGON VPS  MANAGER ───────◇
 
 ㅤ
 <p align="left">
