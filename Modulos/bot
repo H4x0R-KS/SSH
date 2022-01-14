@@ -17,7 +17,7 @@ fun_menu() {
         local env_msg
         env_msg="<b>◈──────────────────◈</b>\n"
         env_msg+="<b>❤️ KingSSH MANAGER BOT ❤️</b>\n"
-        env_msg+="<b>◈──────King{Sahan}──────◈</b>\n\n"
+        env_msg+="<b>◈─────King{Sahan}─────◈</b>\n\n"
         env_msg+="⚠️ <i>SELECT AN OPTION BELOW!</i>\n\n"
 	ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
             --reply_markup "$keyboard1" \
@@ -33,7 +33,7 @@ fun_menu() {
         local env_msg
         env_msg="<b>◈──────────────────◈</b>\n"
         env_msg+="<b>❤️ KingSSH MANAGER BOT ❤️</b>\n"
-        env_msg+="<b>◈──────King{Sahan}──────◈</b>\n\n"
+        env_msg+="<b>◈─────King{Sahan}─────◈</b>\n\n"
         env_msg+="⚠️ <i>SELECT AN OPTION BELOW!</i>\n\n"
 	ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
             --reply_markup "$keyboard1" \
@@ -43,7 +43,7 @@ fun_menu() {
         local env_msg
         env_msg="<b>◈──────────────────◈</b>\n"
         env_msg+="<b>❤️ KingSSH MANAGER BOT ❤️</b>\n"
-        env_msg+="<b>◈──────King{Sahan}──────◈</b>\n\n"
+        env_msg+="<b>◈─────King{Sahan}─────◈</b>\n\n"
         env_msg+="⚠️ <i>SELECT AN OPTION BELOW!</i>\n\n"
 	ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
             --reply_markup "$keyboard1" \
@@ -518,7 +518,7 @@ ver_users() {
                         data=$(echo -e "$((($(date -ud $dat +%s) - $(date -ud $(date +%Y-%m-%d) +%s)) / 86400)) Days")
                     }
                 }
-                info+="<code>$user</code> • <cod>$senha</code> • $limite • $data"
+                info+="<code>$user</code> • <code>$senha</code> • $limite • $data"
                 echo -e "$info"
             done
         }
