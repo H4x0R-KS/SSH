@@ -42,7 +42,7 @@ clear; exit 1
 }
 }
 echo -e "\033[1;31m\033[0m"
-tput setaf 7 ; tput setab 4 ; tput bold ; printf '%40s%s%-12s\n' "◇─────────ㅤ🐉ㅤWelcome To DRAGON VPS MANAGERㅤ🐉ㅤ─────────◇" ; tput sgr0
+tput setaf 7 ; tput setab 4 ; tput bold ; printf '%40s%s%-12s\n' "◇─────────ㅤ🐉ㅤWelcome To DRAGON MANAGERㅤ🐉ㅤ─────────◇" ; tput sgr0
 echo -e "\033[1;31m◇──────────────────────────────────────────────────────◇\033[0m"
 echo ""
 echo -e "\033[1;31m◇ ATTENTION!ㅤ⚠️ㅤ.\033[1;33mㅤTHIS SCRIPT CONTAINS THE FOLLOWING!!\033[0m"
