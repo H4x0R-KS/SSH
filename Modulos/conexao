@@ -406,11 +406,11 @@ SCOLOR='\033[0m'
 			echo -e "\E[44;1;37m           DROPBEAR INSTALLER              \E[0m"
 			echo -e "\n\033[1;33mVC ARE ABOUT TO INSTALL DROPBEAR !\033[0m\n"
 			echo -ne "\033[1;32mDO YOU WISH TO CONTINUE \033[1;31m? \033[1;33m[s/n]:\033[1;37m "
-			read -e -i 80 resposta
+			read -e -i s resposta
 			[[ "$resposta" = 's' ]] && {
 				echo -e "\n\033[1;33mDEFINE A PORT FOR DROPBEAR !\033[0m\n"
 				echo -ne "\033[1;32mWHICH PORT \033[1;33m?\033[1;37m "
-				read porta
+				read -e -i 80 porta
 				[[ -z "$porta" ]] && {
 					echo -e "\n\033[1;31mInvalid port!"
 					sleep 3
