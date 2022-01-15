@@ -1264,8 +1264,8 @@ msg_bem_vindo() {
     msg="👋 Hello ${message_from_first_name[$id]} ! \n\n🤝 Welcome to\n"
     msg+="<b>====================================</b>\n<b>              ❤️ KingSSH MANAGER ❤️   </b>\n<b>====================================</b>\n\n"
     msg+="<b>To access the menu</b>\n<b>click [ /menu ]</b>\n\n"
-    msg+="<b>For information</b>\n<b>click [ /help ]</b>\n\n ✅ Owner of Script : @King_Sahan"
-    msg+="<b>Owner King{Sahan}, Discuss Group</b>\n<b>Join : @KS380 ❤️K❤️</b>\n\n"
+    msg+="<b>For information</b>\n<b>click [ /help ]</b>\n\n ✅ Owner of Script : @King_Sahan "
+    msg+="\n<b>Owner King{Sahan}, Discuss Group,</b>\n<b>Join : @KS380 ❤️K❤️</b>\n\n"
     ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
         --text "$(echo -e $msg)" \
         --parse_mode html
